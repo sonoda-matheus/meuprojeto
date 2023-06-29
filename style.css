@@ -1,0 +1,59 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin: 0; /*por padrao o navegador atriui 8px de margem nos websites, entao estou zerando a margem
+    para que a imagem cole no topo do site  */
+}
+
+h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 49px;
+    line-height: 56px;
+    font-weight: normal;
+
+    margin-bottom: 32px;
+} 
+
+#hero{
+    width: 592px; /*espacamento para as bordas*/
+    /*depois de espaçar ele vai perder o alinhamento com a pagina, esse comando 
+    ele ira continuar mantendo o espaçamento igual*/
+    margin: 0 auto 72px; /* o 0 eh espaçmento no top, auto das laterias e o 72 no bottom */
+}
+
+#hero img{
+    margin-bottom: 72px;
+}
+
+h1 span{
+    font-weight: bold;
+}
+
+
+span, a{
+    color: #FF9900;
+}
+
+p, #footer{
+    color: #7D7987;
+    font-size: 14px;
+    line-height: 28px ;
+}
+
+#footer a + a{
+    margin-left: 28px;
+}
+
+.line{
+    width: 568px;
+    height: 0px;
+    margin: 0 auto 8px;
+
+    border: 1px solid #ECEFF2;
+}
+
+#balls{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
